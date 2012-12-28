@@ -10,4 +10,5 @@
 
 @interface HelloGLKitViewController : GLKViewController
 
+@property (strong, nonatomic) GLKBaseEffect *effect;
 @end
